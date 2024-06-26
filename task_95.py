@@ -3,7 +3,7 @@ import random
 val = int(input("Введите количество чисел в массиве: "))
 nums_array = array('f', [])
 for i in range(0, val):
-    rand_num = round(((random.randrange(1,1000) / random.randrange(1,1000))*10), 2)
+    rand_num = round(((random.randrange(1, 1000) / random.randrange(1, 1000))*10), 2)
     print(rand_num)
     nums_array.append(round(rand_num, 2))
 # print(nums_array)
