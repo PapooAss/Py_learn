@@ -7,3 +7,4 @@ for x in range(41,60):
         x25 = True
     y = not((x5)<=(x25))
     print('x=', x, '-', y)
+    
