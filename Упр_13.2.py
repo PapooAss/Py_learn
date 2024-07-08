@@ -3,7 +3,7 @@ word='Привет, как дела?'
 word2=''
 WORD = ''
 for i in word:
-    Ord = ord(i)+2
+    Ord = ord(i)+3
     word2=word2+chr(Ord)
 print(word2)
 
